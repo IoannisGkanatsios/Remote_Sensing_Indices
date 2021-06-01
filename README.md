@@ -1,6 +1,6 @@
 # Remote Sensing Indices
 
-In this repository, eight of the most widely used indices in remote sensing for optical data are provided:
+In this repository, eight of the most widely used indices in remote sensing are provided. The Landsat-8 and Sentinel-2 are the only two sensors that are supported for the calculation of the indices below
 
 - Normalized Difference Vegetation Index (NDVI)
 - Normalized Difference Water Index (NDWI)
