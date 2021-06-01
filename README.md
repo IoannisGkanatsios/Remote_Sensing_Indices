@@ -34,6 +34,9 @@ with rasterio.open(path_to_the_image)) as src:
 ndvi = NDVI(s2, sensor='sentinel2')
 ```
 
+![Screenshot from 2021-06-01 16-28-45](https://user-images.githubusercontent.com/25709946/120350115-973c8000-c2f6-11eb-8f80-6dbcca955f7b.png)
+
+
 # Licence
 MIT
 
