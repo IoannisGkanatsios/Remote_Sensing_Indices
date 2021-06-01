@@ -15,15 +15,16 @@ In this repository, eight of the most widely used indices in remote sensing for 
 
 **Clone the repository**
 
-"""
+```
 git clone https://github.com/IoannisGkanatsios/Remote_Sensing_Indices.git
+
 cd Remote_Sensing_Indices
 
-"""
+```
 
 **Import the fucntions - An example**
 
-"""
+```
 from src.indices import NDVI
 
 
@@ -31,7 +32,8 @@ with rasterio.open(path_to_the_image)) as src:
     s2 = src.read()
 
 ndvi = NDVI(s2, sensor='sentinel2')
-"""
+```
 
 # Licence
 MIT
+
