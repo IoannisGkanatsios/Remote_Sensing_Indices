@@ -155,7 +155,7 @@ def NBR(raster, sensor=None):
 
 
 def dNBR(raster_pre, raster_post, sensor=None):
-    """Burnt index based on pre and post fire event
+    """Difference Burnt index based on pre and post fire event
 
     parameters
     ----------
@@ -204,7 +204,7 @@ def NBI(raster, sensor=None):
 
 
 def NDBI(raster, sensor=None):
-    """New Built-up Index. Extracts urban environment
+    """Normalized Difference Built-up Index. Extracts urban environment
 
     parameters
     ----------
