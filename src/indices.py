@@ -118,13 +118,13 @@ def NDSI(raster, sensor=None):
 
     if sensor == 'sentinel2':
         green = raster[2, :, :]
-        swir = s2[9, :, :]
+        swir = raster[9, :, :]
         ndsi = (green.astype('float') - swir.astype('float')) / \
             (green.astype('float') + swir.astype('float'))
 
     elif sensor == 'landsat8':
         green = raster[2, :, :]
-        swir = s2[5, :, :]
+        swir = raster[5, :, :]
         ndsi = (green.astype('float') - swir.astype('float')) / \
             (green.astype('float') + swir.astype('float'))
     return ndsi
